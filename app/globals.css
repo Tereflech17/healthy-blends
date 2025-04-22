@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;;
+  }
+  body {
+    @apply bg-[#f4f6e6] text-[#2d5a27]
+  }
+}
 @import "tailwindcss";
 
 :root {

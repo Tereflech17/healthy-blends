@@ -1,13 +1,11 @@
+import "./global.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Healthy Blends - Premium Health Drinks",
   description:
-    "Discover our premium health drinks crafted with natural ingredients to support your wellness journey.",
+    "Discover the power of natural pine tea for weight loss and energy boost",
 };
 
 export default function RootLayout({
@@ -17,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
