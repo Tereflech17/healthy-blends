@@ -9,8 +9,6 @@
   body {
     @apply bg-[#f4f6e6] text-[#2d5a27]
   }
-}
-@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -18,13 +16,13 @@
   --primary-color: #2d5a27;
   --background-color: #f4f6e6;
 }
-
+/* 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

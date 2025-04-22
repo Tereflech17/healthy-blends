@@ -7,13 +7,13 @@ const nextConfig = {
   env: {
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
   },
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ["style-loader", "css-loader", "postcss-loader"],
-    });
-    return config;
-  }
+  // webpack: (config) => {
+  //   config.module.rules.push({
+  //     test: /\.css$/,
+  //     use: ["style-loader", "css-loader", "postcss-loader"],
+  //   });
+  //   return config;
+  // }
 };
 
 module.exports = nextConfig;
