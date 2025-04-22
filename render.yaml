@@ -9,5 +9,6 @@ services:
         value: production
       - key: OPENAI_API_KEY
         sync: false
+        fromGroup: openai
     healthCheckPath: /
     autoDeploy: true 

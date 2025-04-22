@@ -9,7 +9,7 @@
   body {
     @apply bg-[#f4f6e6] text-[#2d5a27]
   }
-
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
